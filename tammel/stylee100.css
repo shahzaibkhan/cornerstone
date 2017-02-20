@@ -1,0 +1,284 @@
+/*
+Theme Name: cornerstonechildtheme
+Description: Child theme for the Cornerstone starter theme
+Author: Stephen Mullen
+Author URI: http: //www.thewirelessguy.co.uk
+Template: cornerstone
+Version: 1.0
+*/
+
+body, html {
+    height: 100%;
+    background: #f7f7f7;
+}
+.top-header {
+    background: white!important;
+    width: 100%;
+    padding: 20px 0px;
+}
+.menu a {
+    font-family: "dosislight",Arial;
+    text-transform: uppercase;
+}
+.row {
+    max-width: 69rem;
+}
+div#main-menu {
+    border-bottom: 1px solid #c7b9b9;
+    background: #f7f7f7;
+    padding: 10px 0px;
+}
+.menu .active>a {
+    color: #afafaf;
+    background: transparent;
+}
+.menu>li>a {
+    display: block;
+    padding: 12px 44px 9px 0px;
+    line-height: 1;
+    font-size: 19px;
+    color: #666666;
+}
+.phonenumber {
+	    color: #666666;
+    font-family: "dosislight",Arial;
+    font-size: 20px;
+    padding: 7px 0px 0px 0px;
+    text-align: right;
+}
+.top-bar, .top-bar ul {
+    background-color: transparent;
+}
+.slider {
+    padding: 0px;
+    margin: 0px;
+    background: url(../upload/02/background.png) no-repeat;
+    padding: 20% 0px;
+    background-size: cover;
+}
+.siderbox {
+    width: 463px;
+    float: right;
+    background: #3a5089;
+    padding: 43px 46px;
+    margin-top: -200px;
+}
+.siderbox h2 {
+    font-family: "dosisextralight",Arial;
+    text-transform: uppercase;
+    color: white;
+    line-height: 100%;
+    font-weight: 300;
+}
+.siderbox p {
+    font-family: "dosisextralight",Arial;
+    color: white;
+    line-height: 100%;
+    font-weight: 300;
+    font-size: 20px;
+    letter-spacing: 1px;
+}
+.siderbox a.button.btn {
+    font-family: "dosislight",Arial;
+    text-transform: uppercase;
+    color: white;
+    line-height: 100%;
+    font-weight: 300;
+    font-size: 18px;
+    padding: 12px 26px;
+    position: absolute;
+    margin-left: 200px;
+    margin-top: 17px;
+    background: black;
+}
+.siderbox a.button.btn:hover {
+    background: #fcd823;
+	color:black;
+}
+.row.mainbox {
+    background: white;
+    padding: 35px;
+}
+p.breadcrumbs {
+    margin-bottom: 0px;
+    padding: 20px 50px;
+    font-size: 16px;
+    color: #a99f9f;
+    font-weight: normal;
+    font-family: "dosisregular",Arial;
+}
+.mainbox h3 {
+    font-weight: normal;
+    font-family: "dosisregular",Arial;
+    font-size: 24px;
+    color: #333;
+    margin: 0px;
+    padding: 0px;
+}
+a.readmore {
+    margin-bottom: 0px;
+    color: #999999;
+    font-weight: bold;
+    font-family: "dosisregular",Arial;
+    text-align: right;
+    width: 100%;
+    display: block;
+    font-size: 14px;
+    margin-top: 12px;
+}
+.singlebox img {
+    width: 100%;
+}
+.singlebox {
+    margin-bottom: 23px;
+    margin-top: 25px;
+}
+.singlebox a {
+    background: #f7f7f7;
+    color: #666;
+    text-align: center;
+    display: block;
+    width: 200px;
+    text-transform: uppercase;
+    margin: 0 auto;
+    font-family: "dosisregular",Arial;
+    padding: 10px 0px;
+    margin-top: -26px;
+    z-index: 10000000;
+    position: relative;
+}
+.adv {
+	text-align: center;
+    margin-top: 58px;
+}
+.readbox2 {
+    background: #f7f7f7;
+    padding: 30px 39px;
+    margin: 15px 15px;
+}
+.readbox2 p {
+    background: #f7f7f7;
+    color: #666;
+    text-align: left;
+    display: block;
+    margin: 0 auto;
+    font-family: "dosisregular",Arial;
+    padding: 10px 0px;
+    z-index: 10000000;
+    position: relative;
+    font-size: 18px;
+}
+.readbox2 a.button.btn {
+    font-family: "dosislight",Arial;
+    text-transform: uppercase;
+    color: white;
+    line-height: 100%;
+    font-weight: 300;
+    font-size: 18px;
+    padding: 12px 26px;
+    position: absolute;
+    width: 199px;
+    margin-left: 380px;
+    margin-top: 7px;
+    background: black;
+}
+.readbox2 a.button.btn:hover {
+    background: #fcd823;
+	color:black;
+}
+.ad2 {
+    background: #ffe465;
+    width: 298px;
+    margin-left: 24px;
+    margin-top: 60px;
+    height: 199px;
+}
+.ad2 h3{
+	width: 150px;
+    background: white;
+    font-weight: normal;
+    font-family: "dosisregular",Arial;
+    font-size: 17px;
+    color: #333;
+    margin: 0px auto;
+    padding: 0px;
+    padding-bottom: 5px;
+    position: relative;
+    top: -13px;
+}
+.ad2 p {
+    font-family: "dosisregular",Arial;
+    text-transform: uppercase;
+    font-weight: 300;
+    font-size: 30px;
+    padding: 27px 24px;
+    line-height: 37px;
+}
+.ad2 a.button.btn {
+    font-family: "dosislight",Arial;
+    text-transform: uppercase;
+    color: white;
+    line-height: 100%;
+    font-weight: 300;
+    font-size: 18px;
+    padding: 12px 26px;
+    width: 211px;
+    background: black;
+}
+.ad2 a.button.btn:hover {
+    background: #fcd823;
+	color:black;
+}
+.carouselslider h2 {
+	font-weight: normal;
+    font-family: "dosisregular",Arial;
+    font-size: 24px;
+    color: #333;
+    margin: 0px;
+    padding: 0px;
+    margin-top: 26px;
+    margin-left: 16px;
+	margin-bottom: 19px;
+}
+.banner {
+	margin: 0px;
+    padding: 26px 0px;
+    text-align: center;
+    background: #3a5089;
+    color: white;
+    margin-top: 30px;
+    font-weight: normal;
+    font-family: "dosisextralight",Arial;
+    font-size: 29px;
+    margin-bottom: 30px;
+}
+.footer {
+	width: 1104px;
+    font-family: "dosisregular",Arial;
+    margin: 0 auto;
+    max-width: 100%;
+    background: white;
+    padding: 41px;
+    margin-bottom: 300px;
+}
+
+.footer h5 {
+    font-family: "dosislight",Arial;
+    font-weight: bold;
+    margin-left: 0px;
+}
+.footer p {
+    padding-left: 17px;
+    line-height: 25px;
+	line-height: 31px;
+    color: #8e7474;
+    font-size: 17px;
+}
+.hours p {
+    margin-bottom: 0px;
+    padding-left: 0px!important;
+    line-height: 27px;
+}
+.logosmall p {
+    padding-left: 0px!important;
+}
